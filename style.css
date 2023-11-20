@@ -1,18 +1,41 @@
 body{
     background-color:lightgray;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 h1{
-    color:black;
+    color: black;
     text-align: center;
+    width: 100%;
+    display: block;
+}
+h1:hover{
+    color: black;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .assign{
     background-color: floralwhite;
     margin: 10px;
     padding: 10px;
-    display: flex;
+    border-radius: 20px;
+    display: block;
+    width: 20%;
+    box-shadow: 8px 8px brown;
 }
 .assign img{
     width: 200px;
     padding: 10px;
 }
+.assign img:hover{
+    width 200px;
+    margin: 10px;
+    border: 2px dotted yellow;
+}
+    
