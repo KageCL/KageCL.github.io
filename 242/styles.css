@@ -1,3 +1,54 @@
+/* Structure */
 body{
-    background: red;
+    background: #f1e1eb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main{
+    background: white;
+    padding: 5px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 20px;
+}
+
+/* Navigation */
+
+#assignments ul{
+    padding-left: 0px;
+}
+#assignments a{
+    text-decoration: none;
+    background: #f1e1eb;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 5px;
+    color:goldenrod;
+}
+
+#assignments a:hover{
+    background-color: goldenrod;
+    color: #f1e1eb;
+}
+
+#assignments li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* Typography */
+
+h1{
+    color:grey;
+    width: fit-content;
+    margin: auto;
+}
+h2{
+    color: goldenrod;
+    width: fit-content;
+    margin: auto;
+}
+
+p{
+    color: #3b3c36;
 }
