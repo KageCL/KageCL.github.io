@@ -1,88 +1,123 @@
 /* Structure */
-
 body{
-    background-color: #645244;
-    background-image: url('images/darkwoods.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("images/darkwoods.jpg");
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-#main{
-    background: #645244;
-    padding: 20px;
-    margin: 20px auto;
-    width: 75%;
-    border-radius: 20px;
-}
-
-/* Navigation */
-
-#nav-links ul{
-    padding-left: 0px;
-}
-#nav-links a{
-    text-decoration: none;
-    background: whitesmoke;
-    border-radius: 4px;
-    padding: 3px;
-    margin: 5px;
-    color: #2a52be;
-    
-}
-
-#nav-links a:hover{
-    background-color:#2a52be;
-    color: whitesmoke;
-}
-
-#nav-links li{
-    list-style-type: none;
-    display: inline-block;
-    
-}
-
-/* Typography */
-
-h1{
-    background: whitesmoke;
-    border-radius: 10px;
-    color: #2a52be;
-    width: fit-content;
+#content{
+    width: 95%;
     margin: auto;
-    padding: 5px;
-
+    background: #645244;
+    border-radius: 5px;
 }
 
-h2{
-    color: #cfcfcd;
-    margin-left: 15px;
-    margin-bottom: 0px;
-    text-decoration: underline;
+#species section{
+    background: wheat;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#main-aside{
+    background: wheat;
+    text-align: center;
+}
+
+#news-section{
+    background: wheat;
 }
 
 img{
-    list-style-type: none;
-    display: inline-block;
-    border: 5px solid #cfcfcd;
-    border-radius: 5px;
-    margin: 5px;
+    max-width: 100%;
+    border: 1px solid black;
 }
 
-p{
-    margin-top: 10px;
+#main-header{
+    background-color: #645244;
+    border-radius:5px;
+}
+
+#main-footer{
+    background: green;
+}
+
+/* Navigation */
+#main-nav ul{
+padding-left: 0px;
+}
+
+#main-nav li{
+    list-style: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#main-nav a{
+    text-decoration: none;
+    padding: 5px;
+    background: green;
+    color: black;
+    display: block;
+}
+
+#main-nav a:hover{
+    background-color: black;
+    color: green;
+}
+
+/* Typography  */
+#main-footer p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: green;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
 }
 
 table{
-    background: whitesmoke;
-    border: 5px solid #cfcfcd;
+    background: green;
+    border: 1px solid black;
     width: fit-content;
     margin: auto;
     padding: 2px;
 }
+/* Media Queries */
 
-td{
-    padding: 5px;
+@media only screen and (min-width:600px){
+    .columns{
+        display: flex
+    }
+
+    .one{
+flex: 1;
+    }
+
+    .two{
+        flex: 2;
+    }
+
+    .three{
+        flex: 3;
+    }
+
+    .four{
+        flex: 4;
+    }
+
+    #main-nav li{
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width;768px){
+
 }
