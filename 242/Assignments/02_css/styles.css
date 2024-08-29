@@ -55,6 +55,7 @@ padding-left: 0px;
 
 #main-nav a{
     text-decoration: none;
+    text-align: center;
     padding: 5px;
     background: green;
     color: black;
