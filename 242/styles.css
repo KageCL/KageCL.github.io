@@ -1,28 +1,50 @@
 /* Structure */
 body{
     background: #f1e1eb;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-#main{
+#content{
+    width: 95%;
+    margin: auto;
     background: white;
-    padding: 5px;
-    margin: 20px auto;
-    width: 90%;
-    border-radius: 20px;
+    border-radius: 5px;
+}
+
+#assignments section{
+    background: #f1e1eb;
+    border-radius: 5px;
+    margin: 30px;
+    margin-top: 10px;
+
+}
+
+section img{
+    border: 1px solid ;
+    margin: auto;
+    display: block;
+}
+
+#main-header{
+    background-color: white;
+    border-bottom:3px solid goldenrod;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#main-footer{
+    background: goldenrod;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /* Navigation */
 
-#assignments ul{
-    padding-left: 0px;
-}
 #assignments a{
     text-decoration: none;
     background: #f1e1eb;
     border-radius: 4px;
     padding: 3px;
-    margin: 5px;
     color:goldenrod;
     
 }
@@ -32,24 +54,64 @@ body{
     color: #f1e1eb;
 }
 
-#assignments li{
-    list-style-type: none;
-    display: inline-block;
+/* Typography  */
+#main-footer p{
+    text-align: center;
 }
-
-/* Typography */
 
 h1{
-    color:grey;
-    width: fit-content;
-    margin: auto;
+    text-align: center;
+    color: grey;
 }
+
 h2{
     color: goldenrod;
-    width: fit-content;
-    margin: auto;
+    text-align: center;
+}
+
+h3{
+    color: goldenrod;
+    text-align: center;
 }
 
 p{
-    color: #3b3c36;
+    color: grey;
+    padding: 5px;
+}
+
+#main-header h3{
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width:600px){
+    .columns{
+        display: flex
+    }
+
+    .one{
+flex: 1;
+    }
+
+    .two{
+        flex: 2;
+    }
+
+    .three{
+        flex: 3;
+    }
+
+    .four{
+        flex: 4;
+    }
+
+    #main-nav li{
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width;768px){
+
 }
