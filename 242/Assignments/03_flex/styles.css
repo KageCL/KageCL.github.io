@@ -1,78 +1,176 @@
 /* Structure */
-body{
-    background: url("images/darkwoods.jpg");
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#body{
+    background: #f1e1eb;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#content{
-    width: 95%;
-    margin: auto;
-    background: rgba(245, 245, 245, 8.7);
-    
-}
-
-#artist section{
-    background: orange;
-    padding: 5px;
-    margin: 5px;
+#main-content{
+    background: #f1e1eb;
 }
 
 #main-header{
-    background: goldenrod;
-    border-radius: 5px;
+ background: #f1e1eb;
 }
 
-#main-footer{
-    background: white;
-    border-radius: 5px;
-}
-/* Navigaiton */
-
-#main-nav ul{
-    padding-left: 0;
-}
-
-#main-nav li{
-    list-style: none;
-
-}
-
-#main-nav a{
-    text-decoration: none;
-    padding: 5px;
-    background-color: black;
-    color: aliceblue;
-    display: block;
-    border-bottom: 1px solid goldenrod;
-}
-/* Typography */
-#main-footer p{
+#main-header h1{
     text-align: center;
 }
-/* Media Queries */
 
-@media only screen and (min-width: 768px){
-    .columns{
-        display: flex;
-    }
-    .one{
-        flex: 1;
-    }
-    .two{
-        flex: 2;
-    }
-    .three{
-        flex: 3;
-    }
-    .four{
-        flex: 4;
-    }
-    #main-nav li{
-        flex: 1;
-    }
-
+#content{
+    background: #f1e1eb;
 }
 
-@media only screen and (min-width: 600px){
+#content-control section{
+    background: goldenrod;
+    
+    margin: 20px;
+}
 
+#content-control{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-control{
+    flex: 1;
+}
+
+.section-control h3{
+    text-align: center;
+}
+.section-control img{
+    margin-left: 13px;
+}
+
+.section-control p{
+    margin-left: 5px;
+}
+#main-aside{
+    background: goldenrod;
+    flex: 1;
+}
+
+#main-aside p{
+    padding-left: 3px;
+}
+
+#main-aside h3{
+    text-align: center;
+}
+#main-footer{
+    background:whitesmoke ;
+}
+
+#footer-sections{
+    background-color: grey;
+    flex-direction: column;
+}
+
+#footer-sections p{
+    text-align: center;
+}
+.footer-left{
+    flex: 1;
+}
+
+.footer-left img{
+    margin-left: 50px;
+}
+.footer-right{
+    flex: 4;
+}
+.flex-container {
+    display: flex;
+  }
+/* Navigation */
+    #header-nav ul{
+        padding-left: 0px;
+        display: flex;
+        width: 100%;
+    }
+    
+    #header-nav li{
+        list-style: none;
+        border: 1px solid black;
+        flex: 1;
+    }
+    
+    #header-nav a{
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+        background: goldenrod;
+        color: #f1e1eb;
+        display: block;
+
+    }
+    
+    #header-nav a:hover{
+        background: #f1e1eb;
+        color: goldenrod;
+    }
+
+    #aside-nav li{
+        list-style: none;
+    }
+    
+    #aside-nav a{
+        padding: 5px;
+        background: goldenrod;
+        color: #f1e1eb;
+        display: block;
+
+    }
+    
+    #aside-nav a:hover{
+        background: #f1e1eb;
+        color: goldenrod;
+    }
+/* Typography */
+#main-footer h2{
+    margin-left: 200px;
+}
+/* Media Queries */
+@media only screen and (max-width: 700px) {
+    #header-nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-nav li {
+        width: 100%;
+    }
+
+    #articles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-control img{
+        margin-left: 100px;
+    }
+
+    #section-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right h3{
+        text-align: center;
+    }
+    .footer-right p{
+        text-align: left;
+    }
+
+    .footer-left img{
+        margin-left: 125px;
+    }
+
+    #footer-sections h2{
+        text-align: center;
+        margin: auto;
+    }
 }
