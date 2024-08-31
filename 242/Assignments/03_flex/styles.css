@@ -14,9 +14,7 @@
  background: #f1e1eb;
 }
 
-#main-header h1{
-    text-align: center;
-}
+
 
 #content{
     background: #f1e1eb;
@@ -38,28 +36,13 @@
     flex: 1;
 }
 
-.section-control h3{
-    text-align: center;
-}
-.section-control img{
-    margin-left: 13px;
-}
 
-.section-control p{
-    margin-left: 5px;
-}
 #main-aside{
     background: goldenrod;
     flex: 1;
 }
 
-#main-aside p{
-    padding-left: 3px;
-}
 
-#main-aside h3{
-    text-align: center;
-}
 #main-footer{
     background:whitesmoke ;
 }
@@ -69,9 +52,7 @@
     flex-direction: column;
 }
 
-#footer-sections p{
-    text-align: center;
-}
+
 .footer-left{
     flex: 1;
 }
@@ -133,6 +114,31 @@
 #main-footer h2{
     margin-left: 200px;
 }
+
+#main-header h1{
+    text-align: center;
+}
+
+.section-control h3{
+    text-align: center;
+}
+.section-control img{
+    margin-left: 13px;
+}
+
+.section-control p{
+    margin-left: 5px;
+}
+
+#main-aside p{
+    padding-left: 3px;
+}
+
+#main-aside h3{
+    text-align: center;
+}
+
+
 /* Media Queries */
 @media only screen and (max-width: 700px) {
     #header-nav ul {
