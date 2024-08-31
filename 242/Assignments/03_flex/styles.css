@@ -20,11 +20,7 @@
     background: #f1e1eb;
 }
 
-#content-control section{
-    background: goldenrod;
-    
-    margin: 20px;
-}
+
 
 #content-control{
     flex: 4;
@@ -57,9 +53,6 @@
     flex: 1;
 }
 
-.footer-left img{
-    margin-left: 50px;
-}
 .footer-right{
     flex: 4;
 }
@@ -138,7 +131,19 @@
     text-align: center;
 }
 
+#content-control section{
+    background: goldenrod;
+    
+    margin: 20px;
+}
 
+.footer-left img{
+    margin-left: 50px;
+}
+
+#footer-sections p{
+    text-align: center;
+}
 /* Media Queries */
 @media only screen and (max-width: 700px) {
     #header-nav ul {
