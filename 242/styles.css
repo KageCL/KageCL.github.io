@@ -32,6 +32,11 @@ section img{
     border-top-right-radius: 5px;
 }
 
+#name-header{
+    display: flex;
+    flex-direction: column;
+}
+
 #main-footer{
     background: goldenrod;
     border-bottom-left-radius: 5px;
@@ -86,13 +91,13 @@ p{
 
 /* Media Queries */
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:700px){
     .columns{
-        display: flex
+        display: flex;
     }
 
     .one{
-flex: 1;
+        flex: 1;
     }
 
     .two{
@@ -110,6 +115,7 @@ flex: 1;
     #main-nav li{
         flex: 1;
     }
+
 }
 
 @media only screen and (min-width: 768px){
