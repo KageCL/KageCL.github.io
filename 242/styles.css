@@ -19,6 +19,12 @@ body{
 
 }
 
+#projects section{
+    background: goldenrod;
+    border-radius: 5px;
+    margin: 30px;
+    margin-top: 10px;
+}
 section img{
     border: 1px solid ;
     margin: auto;
@@ -35,6 +41,7 @@ section img{
 #name-header{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #main-footer{
@@ -59,6 +66,20 @@ section img{
     color: #f1e1eb;
 }
 
+#projects a{
+    text-decoration: none;
+    background: goldenrod;
+    border-radius: 4px;
+    padding: 3px;
+    color:#f1e1eb;
+    
+}
+
+#projects a:hover{
+    background-color: #f1e1eb;
+    color: goldenrod;
+}
+
 /* Typography  */
 #main-footer p{
     text-align: center;
@@ -79,6 +100,11 @@ h3{
     text-align: center;
 }
 
+#projects h3{
+    color: grey;
+    text-align: center;
+}
+
 p{
     color: grey;
     padding: 5px;
@@ -89,6 +115,24 @@ p{
     margin-left: 20px;
 }
 
+#content-control{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-control{
+    flex: 1;
+}
+
+.section-control img{
+    width: 200px;
+    height: 200px;
+}
+#content-control section{
+    background: white;
+    margin: 20px;
+}
 /* Media Queries */
 
 @media only screen and (min-width:700px){
@@ -102,6 +146,7 @@ p{
 
     .two{
         flex: 2;
+        flex-wrap: wrap;
     }
 
     .three{
