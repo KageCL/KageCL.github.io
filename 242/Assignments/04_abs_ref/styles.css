@@ -1,0 +1,559 @@
+.columns-all{
+    display: flex;
+    flex-direction: column;
+}
+.side{
+    display: flex;
+}
+body{
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header-info{
+    width: 100%;
+    background: black;
+    display: flex;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#main-header{
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-bottom{
+    background: #73000a;
+}
+
+#main-img{
+    width: 300px;
+    height: 60px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#top-menu-1 ul{
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    top: 1%;
+    right: 25%;
+}
+
+#top-menu-1 li{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 5px;
+}
+
+#top-menu-1 p{
+    font-size: 12px;
+    color: white;
+    font-style: em;
+    margin: 5px;
+}
+#top-menu-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#top-menu-1 a:hover{
+    background-color: plum;
+}
+
+#top-menu-2 ul{
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    top: 1%;
+    right: 3%;
+}
+
+#top-menu-2 li{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 5px;
+}
+
+#top-menu-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+#top-menu-2 a:hover{
+    background: plum;
+}
+
+#header-bottom ul{
+    margin: auto;
+    padding-left: 0px;
+    display: flex;
+    width: 85%;
+}
+
+#header-bottom li{
+    list-style-type: none;
+    flex: 1;
+    margin-right: 15px;
+}
+
+#header-bottom a{
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    background: #73000a;
+    color: white;
+    display: block;
+
+}
+
+#header-bottom a:hover{
+    background: #570008;
+    color: white;
+}
+
+#grad-ad{
+    background: white;
+}
+
+#main-footer{
+    margin: 0px;
+}
+
+#content{
+    width: 100%;
+}
+
+#davis-college{
+    width: 100%;
+    height: 400px;
+}
+
+#engineer{
+    width: 100%;
+    height: 100%;
+}
+#section-1{
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+#section-1 h3{
+    margin-top: 80px;
+    line-height: 28.8px;
+}
+
+#section-1 p{
+    line-height: 28.8px;
+}
+#section-2{
+    margin-top: 80px;
+    display: flex;
+}
+#grad-ad{
+    width: 120%;
+    background: #73000a;
+    position: absolute;
+    top: -65%;
+    left: -25%;
+}
+
+#grad-ad h1{
+    font-size: 70px;
+    margin: 10px;
+    color: white;
+}
+
+#second-img{
+    background: lightgreen;
+    flex: 1;
+}
+#explore-degree{
+    background: #73000a;
+    flex: 1;
+}
+
+#explore-degree p{
+    color: white;
+    margin-left: 44.28px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+    width: 80%;
+    line-height: 28.8px;
+}
+
+#explore-degree h1{
+    color: white;
+    margin-left: 44.28px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+#explore-degree li{
+    list-style-type: none;
+}
+
+#explore-degree a{
+    background: black;
+    border: 2px solid white;
+    width: fit-content;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-left: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+#explore-degree a:hover{
+    background: white;
+    color: #73000a;
+}
+
+#section-3{
+    background: #ececec;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#section-3 h1{
+    font-size: 65px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #73000a;
+}
+#section-3 p{
+    line-height: 28.8px;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#section-3 h2{
+    margin-bottom: 80px;
+}
+#section-3 li{
+    list-style-type: none;
+}
+
+#section-3 a{
+    background: #73000a;
+    width: fit-content;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+
+#section-3 a:hover{
+    background: white;
+    border: 2px solid #73000a;
+    color: #73000a;
+}
+
+#section-4{
+    background: white;
+    width: 100%;
+    margin: auto;
+}
+
+#paying-for{
+    line-height: 28.8px;
+    background: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#paying-for h1{
+    color: #73000a;
+    font-size: 50px;
+    margin-top: 125px;
+}
+
+#paying-for p{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#section-4-menus{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#section-4-menus img{
+    width: 242px;
+    height: 242px;
+    
+}
+#section-4-menus section{
+    margin: 20px;
+}
+
+#section-4-menus h3{
+    color: #73000a;
+    margin-left: 12px;
+}
+
+#section-4-menus a{
+    text-decoration: none;
+    color: black;
+}
+
+#section-4-menus a:hover{
+background: #ececec;
+}
+
+#section-4-menus section:hover{
+    background: #ececec;
+}
+
+#section-4-menus p{
+    line-height: 28.8px;
+    margin-left: 10px;
+}
+.section-4-menu{
+    flex: 1;
+}
+
+#section-5{
+    position: relative;
+    background: black;
+}
+
+#graduation{
+    flex:1;
+}
+#grad-student{
+    width: 287px;
+    height: fit-content;
+    margin-left: 80px;
+}
+#next-step{
+    flex:4;
+}
+
+#next-step h1{
+    color: white;
+    margin-left: 44.28px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+#next-step p{
+    color: white;
+    margin-left: 44.28px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+    width: 80%;
+    line-height: 28.8px;
+}
+
+#next-step li{
+    margin-left: 44.28px;
+    list-style-type: none;
+}
+
+#next-step a{
+    background: #73000a;
+    width: fit-content;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin: auto;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+#next-step a:hover{
+    background: white;
+    border: 2px solid #73000a;
+    color: #73000a;
+}
+
+#main-footer-img{
+    width: 300px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#main-footer{
+    background: #73000a;
+}
+
+#footer-header-1{
+    background: #73000a;
+    flex: 3;
+}
+
+#footer-header-2{
+    background: #73000a;
+    flex: 2;
+}
+
+#footer-header-3{
+    background: #73000a;
+    flex: 1;
+}
+#footer-header-1 ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footer-header-1 li{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 5px;
+}
+
+#footer-header-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-header-1 a:hover{
+    background-color: plum;
+}
+
+.footer-menu-control{
+    display: flex;
+}
+
+#footer-header-2 ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footer-header-2 li{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 5px;
+}
+
+#footer-header-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-header-2 a:hover{
+    background-color: plum;
+}
+
+#footer-header-2 ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footer-header-3 li{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 5px;
+}
+
+#footer-header-3 a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-header-3 a:hover{
+    background-color: plum;
+}
+
+#footer-header-3 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-bottom h3{
+    color: white;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+#footer-bottom ul{
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
+#bottom{
+    border-top: 1px solid white;
+    background: black;
+}
+
+#footer-nav ul{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+#footer-nav li{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#footer-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-nav a:hover{
+    background: plum;
+}
+
+.list-item:not(:last-child)::after{
+    content: " |";
+    margin-left: 5px;
+}
+
+#search-bar{
+    position: absolute;
+    width: 277px;
+    height: 37px;
+    top: 40%;
+    right: 5%;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+#search-bar::placeholder {
+    color: white;
+}
+
+media only screen and(min-width:600px){
+
+}
