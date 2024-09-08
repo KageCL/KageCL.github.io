@@ -1,3 +1,13 @@
+:root{
+    --primary-color-1:white;
+    --primary-color-2:black;
+    --primary-color-3:#73000a;
+    --secondary-color-1:plum;
+    --secondary-color-2:#ececec;
+    --secondary-color-3:#570008;
+
+}
+
 .columns-all{
     display: flex;
     flex-direction: column;
@@ -6,7 +16,7 @@
     display: flex;
 }
 body{
-    background: white;
+    background: var(--primary-color-1);
     margin: 0px;
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,7 +24,7 @@ body{
 
 #header-info{
     width: 100%;
-    background: black;
+    background: var(--primary-color-2);
     display: flex;
     position: relative;
     margin-bottom: 0px;
@@ -28,7 +38,7 @@ body{
 }
 
 #header-bottom{
-    background: #73000a;
+    background: var(--primary-color-3);
 }
 
 #main-img{
@@ -55,17 +65,17 @@ body{
 
 #top-menu-1 p{
     font-size: 12px;
-    color: white;
+    color: var(--primary-color-1);
     font-style: em;
     margin: 5px;
 }
 #top-menu-1 a{
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #top-menu-1 a:hover{
-    background-color: plum;
+    background-color: var(--secondary-color-1);
 }
 
 #top-menu-2 ul{
@@ -83,12 +93,12 @@ body{
 }
 
 #top-menu-2 a{
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #top-menu-2 a:hover{
-    background: plum;
+    background: var(--secondary-color-1);
 }
 
 #header-bottom ul{
@@ -109,19 +119,19 @@ body{
     text-decoration: none;
     text-align: center;
     padding: 5px;
-    background: #73000a;
-    color: white;
+    background: var(--primary-color-3);
+    color: var(--primary-color-1);
     display: block;
 
 }
 
 #header-bottom a:hover{
-    background: #570008;
-    color: white;
+    background: var(--secondary-color-3);
+    color: var(--primary-color-1);
 }
 
 #grad-ad{
-    background: white;
+    background: var(--primary-color-1);
 }
 
 #main-footer{
@@ -161,7 +171,7 @@ body{
 }
 #grad-ad{
     width: 120%;
-    background: #73000a;
+    background: var(--primary-color-3);
     position: absolute;
     top: -65%;
     left: -25%;
@@ -170,20 +180,20 @@ body{
 #grad-ad h1{
     font-size: 70px;
     margin: 10px;
-    color: white;
+    color: var(--primary-color-1);
 }
 
 #second-img{
-    background: lightgreen;
+    background: var(--primary-color-1);
     flex: 1;
 }
 #explore-degree{
-    background: #73000a;
+    background: var(--primary-color-3);
     flex: 1;
 }
 
 #explore-degree p{
-    color: white;
+    color: var(--primary-color-1);
     margin-left: 44.28px;
     margin-top: 22px;
     margin-bottom: 32px;
@@ -192,7 +202,7 @@ body{
 }
 
 #explore-degree h1{
-    color: white;
+    color: var(--primary-color-1);
     margin-left: 44.28px;
     margin-top: 120px;
     margin-bottom: 0px;
@@ -203,25 +213,25 @@ body{
 }
 
 #explore-degree a{
-    background: black;
-    border: 2px solid white;
+    background: var(--primary-color-2);
+    border: 2px solid var(--primary-color-1);
     width: fit-content;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 28px;
     padding-right: 28px;
     margin-left: 70px;
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #explore-degree a:hover{
-    background: white;
-    color: #73000a;
+    background: var(--primary-color-1);
+    color: var(--primary-color-3);
 }
 
 #section-3{
-    background: #ececec;
+    background: var(--secondary-color-2);
     width: 100%;
     margin: auto;
     text-align: center;
@@ -231,7 +241,7 @@ body{
     font-size: 65px;
     margin-bottom: 16px;
     text-align: center;
-    color: #73000a;
+    color: var(--primary-color-3);
 }
 #section-3 p{
     line-height: 28.8px;
@@ -249,39 +259,39 @@ body{
 }
 
 #section-3 a{
-    background: #73000a;
+    background: var(--primary-color-3);
     width: fit-content;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 28px;
     padding-right: 28px;
     margin: auto;
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #section-3 a:hover{
-    background: white;
-    border: 2px solid #73000a;
-    color: #73000a;
+    background: var(--primary-color-1);
+    border: 2px solid var(--primary-color-3);
+    color: var(--primary-color-3);
 }
 
 #section-4{
-    background: white;
+    background: var(--primary-color-1);
     width: 100%;
     margin: auto;
 }
 
 #paying-for{
     line-height: 28.8px;
-    background: white;
+    background: var(--primary-color-1);
     width: 100%;
     margin: auto;
     text-align: center;
 }
 
 #paying-for h1{
-    color: #73000a;
+    color: var(--primary-color-3);
     font-size: 50px;
     margin-top: 125px;
 }
@@ -308,21 +318,21 @@ body{
 }
 
 #section-4-menus h3{
-    color: #73000a;
+    color: var(--primary-color-3);
     margin-left: 12px;
 }
 
 #section-4-menus a{
     text-decoration: none;
-    color: black;
+    color: var(--primary-color-2);
 }
 
 #section-4-menus a:hover{
-background: #ececec;
+background: var(--secondary-color-2);
 }
 
 #section-4-menus section:hover{
-    background: #ececec;
+    background: var(--secondary-color-2);
 }
 
 #section-4-menus p{
@@ -335,7 +345,7 @@ background: #ececec;
 
 #section-5{
     position: relative;
-    background: black;
+    background: var(--primary-color-2);
 }
 
 #graduation{
@@ -351,14 +361,14 @@ background: #ececec;
 }
 
 #next-step h1{
-    color: white;
+    color: var(--primary-color-1);
     margin-left: 44.28px;
     margin-top: 120px;
     margin-bottom: 0px;
 }
 
 #next-step p{
-    color: white;
+    color: var(--primary-color-1);
     margin-left: 44.28px;
     margin-top: 22px;
     margin-bottom: 32px;
@@ -372,22 +382,22 @@ background: #ececec;
 }
 
 #next-step a{
-    background: #73000a;
+    background: var(--primary-color-3);
     width: fit-content;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 28px;
     padding-right: 28px;
     margin: auto;
-    color: white;
-    border: 2px solid white;
+    color: var(--primary-color-1);
+    border: 2px solid var(--primary-color-1);
     text-decoration: none;
 }
 
 #next-step a:hover{
-    background: white;
-    border: 2px solid #73000a;
-    color: #73000a;
+    background: var(--primary-color-1);
+    border: 2px solid var(--primary-color-3);
+    color: var(--primary-color-3);
 }
 
 #main-footer-img{
@@ -399,21 +409,21 @@ background: #ececec;
 }
 
 #main-footer{
-    background: #73000a;
+    background: var(--primary-color-3);
 }
 
 #footer-header-1{
-    background: #73000a;
+    background: var(--primary-color-3);
     flex: 3;
 }
 
 #footer-header-2{
-    background: #73000a;
+    background: var(--primary-color-3);
     flex: 2;
 }
 
 #footer-header-3{
-    background: #73000a;
+    background: var(--primary-color-3);
     flex: 1;
 }
 #footer-header-1 ul{
@@ -429,12 +439,12 @@ background: #ececec;
 }
 
 #footer-header-1 a{
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #footer-header-1 a:hover{
-    background-color: plum;
+    background-color: var(--secondary-color-1);
 }
 
 .footer-menu-control{
@@ -454,12 +464,12 @@ background: #ececec;
 }
 
 #footer-header-2 a{
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #footer-header-2 a:hover{
-    background-color: plum;
+    background-color: var(--secondary-color-1);
 }
 
 #footer-header-2 ul{
@@ -475,12 +485,12 @@ background: #ececec;
 }
 
 #footer-header-3 a{
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #footer-header-3 a:hover{
-    background-color: plum;
+    background-color: var(--secondary-color-1);
 }
 
 #footer-header-3 ul{
@@ -494,10 +504,10 @@ background: #ececec;
 }
 
 #footer-bottom h3{
-    color: white;
+    color: var(--primary-color-1);
     margin-left: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--primary-color-1);
 }
 
 #footer-bottom ul{
@@ -506,8 +516,8 @@ background: #ececec;
 }
 
 #bottom{
-    border-top: 1px solid white;
-    background: black;
+    border-top: 1px solid var(--primary-color-1);
+    background: var(--primary-color-2);
 }
 
 #footer-nav ul{
@@ -527,12 +537,12 @@ background: #ececec;
 }
 
 #footer-nav a{
-    color: white;
+    color: var(--primary-color-1);
     text-decoration: none;
 }
 
 #footer-nav a:hover{
-    background: plum;
+    background: var(--secondary-color-1);
 }
 
 .list-item:not(:last-child)::after{
@@ -546,14 +556,164 @@ background: #ececec;
     height: 37px;
     top: 40%;
     right: 5%;
-    background: black;
-    color: white;
-    border: 1px solid white;
+    background: var(--primary-color-2);
+    color: var(--primary-color-1);
+    border: 1px solid var(--primary-color-1);
 }
 #search-bar::placeholder {
-    color: white;
+    color: var(--primary-color-1);
 }
 
-media only screen and(min-width:600px){
+@media only screen and (max-width: 700px){
 
+    .side{
+        display: flex;
+        flex-direction: column;
+    }
+    #header-top{
+        display: none;
+    }
+
+    #search-bar{
+        display: none;
+    }
+
+    #header-bottom ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #davis-college{
+        height: 250px;
+    }
+
+    #section-1{
+        width: 85%;
+    }
+
+    #section-1 h3{
+        margin-top: 30px;
+    }
+    #grad-ad{
+        width: 120%;
+        background: none;
+        position: relative;
+    }
+    
+    #grad-ad h1{
+        font-size: 40px;
+        margin: 10px;
+        margin-left: 100px;
+        color: var(--primary-color-3);
+    }
+
+    #second-img{
+        background: var(--primary-color-3);
+        width: 100%;
+        margin: auto;
+        flex: 1;
+
+    }
+
+    #engineer{
+        width: 80%;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    #explore-degree h1{
+        margin-top: 20px;
+    }
+
+    #explore-degree p {
+        margin-top: 11px;
+        margin-bottom: 40px;
+        width: 85%;
+    }
+
+
+    #explore-degree h2{
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+
+    #explore-degree a{
+        background: var(--primary-color-2);
+        border: 2px solid var(--primary-color-1);
+        width: fit-content;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 28px;
+        padding-right: 28px;
+        margin-left: 50px;
+        color: var(--primary-color-1);
+        text-decoration: none;
+    }
+
+    #section-3 h1{
+        font-size: 40px;
+    }
+
+    #section-4-menus{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #section-4-menus img{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 350px;
+        height: 350px;
+    }
+
+    #next-step h1{
+        margin-top: 20px;
+    }
+
+    #grad-student{
+        width: 425px;
+        height: 400px;
+        margin-left: 24.28px;
+        margin-top: 30px;
+    }
+
+    #next-step h1{
+        margin-left: 24.28px;
+    }
+    #next-step p{
+        color: var(--primary-color-1);
+        margin-left: 24.28px;
+        margin-top: 22px;
+        margin-bottom: 32px;
+        width: 90%;
+        line-height: 28.8px;
+    }
+
+    #next-step li{
+        margin-left: 24.28px;
+    }
+
+    #next-step h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+
+    }
+
+    #footer-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #footer-nav li {
+        margin-right: 10px;
+    }
 }
