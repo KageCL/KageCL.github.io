@@ -62,7 +62,7 @@ section img{
 }
 
 #assignments a:hover{
-    background-color: goldenrod;
+    background-color: #daa520;
     color: #f1e1eb;
 }
 
@@ -131,7 +131,8 @@ p{
 }
 #content-control section{
     background: white;
-    margin: 20px;
+    margin: 30px;
+    flex: 1;
 }
 /* Media Queries */
 
