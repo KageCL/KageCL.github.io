@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Javascript</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>Assignment 5</h1>
+
+            <h2>Introduction to Javascript</h2>
+        </header>
+
+        <div id="content">
+            <div id="count" class="one">
+                <h3>Count</h3>
+
+                <p id="number">0</p>
+            </div>
+
+            <div id="random" class="one">
+                <h3>Random Image</h3>
+
+                <img src="https://picsum.photos/200" id="random-pic" onclick="reloadPage()">
+            </div>
+            <div id="slide" class="one">
+                <h3>Slider Move</h3>
+
+                <div class="slide">
+                    <input type="range" min="1" max="100" value="1" class="slider" id="range">
+                </div>
+
+                <img src="https://place-hold.it/100x100" id="slide-img">
+            </div>
+        </div>
+        <footer id="main-footer">
+            <p>&copy; kagecl</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+
+</html>
