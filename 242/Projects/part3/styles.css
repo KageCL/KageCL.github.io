@@ -1,0 +1,179 @@
+
+#content-title{
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+/* Header */
+
+
+#header-top{
+    display: flex;
+    flex-direction: row;
+}
+#main-img{
+    background: #B886F8;
+    flex: 1;
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-header{
+    background: #B886F8;
+    flex: 8;
+}
+
+#main-header h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#header-menu{
+    background: #B886F8;
+    flex: 1;
+}
+
+#top-menu ul{
+    padding-left: 0px;
+    padding-top: 40px;
+}
+#top-menu li{
+    list-style-type: none;
+}
+
+#top-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#top-menu a:hover{
+    color: #DE868F;
+}
+
+#header-bottom{
+    background: #F1E1EB;
+}
+
+#nav-bar ul{
+    padding-left: 0px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#nav-bar li{
+    list-style: none;
+    flex: 1;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    background: #F1E1EB;
+    color: black;
+    display: block;
+
+}
+
+#nav-bar a:hover{
+    background: grey;
+    color: #DE868F;
+}
+
+/* Content */
+
+#content{
+    display: flex;
+    flex-direction: row;
+}
+#items{
+    display: flex;
+    flex: 6;
+}
+#items section{
+    background: white;
+    border-radius: 2px;
+    margin: 20px;
+    margin-top: 10px;
+
+}
+#items a{
+    text-decoration: none;
+    padding: 3px;
+    color:black;
+    
+}
+
+#side{
+    flex: 1;
+}
+
+#content-control{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content-control p{
+    margin-left: 5px;
+}
+
+.section-control{
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+
+#content-control section{
+    background: #f1e1eb;
+    width: 300px;
+}
+
+#item-head{
+    background: #B886F8;
+}
+
+#item-head h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#item-img{
+    background: white;
+    padding-top: 5px;
+}
+
+#item-img img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+#item-desc{
+    background: #f1e1eb;
+}
+
+#item-desc p{
+    margin: 0px;
+    margin-left: 5px;
+}
+
+/* Other */
+.active{
+    background: #DE868F;
+}
