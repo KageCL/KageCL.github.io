@@ -133,6 +133,10 @@ body{
     
 }
 
+#items a:hover{
+    color: var(--primary-color-1);
+}
+
 #side{
     flex: 1;
 }
@@ -168,6 +172,11 @@ body{
     padding-bottom: 5px;
     text-align: center;
 }
+
+.item-head h3:hover{
+    background: var(--primary-color-2);
+}
+
 .item-img{
     background: var(--secondary-color-1);
     padding-top: 5px;
