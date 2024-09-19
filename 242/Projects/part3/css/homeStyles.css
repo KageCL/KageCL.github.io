@@ -19,6 +19,12 @@ body{
     margin-top: 0px;
 }
 
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
 #main-footer p{
     text-align: center;
     background: var(--primary-color-1);

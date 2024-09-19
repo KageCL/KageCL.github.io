@@ -15,6 +15,12 @@ body{
     margin-top: 0px;
 }
 
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
 #main-footer p{
     text-align: center;
     background: var(--primary-color-1);
@@ -126,7 +132,7 @@ body{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--secondary-color-4);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -147,7 +153,7 @@ body{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
-    width: 80%;
+    width: 100%;
 }
 #content{
     display: flex;
@@ -162,6 +168,7 @@ body{
     border-radius: 2px;
     margin: 10px;
     margin-top: 2px;
+    flex: 1;
 
 }
 #items a{
@@ -218,7 +225,9 @@ body{
 .item-img img{
     width: 200px;
     height: 200px;
-    margin-left: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .item-desc{
     background: var(--primary-color-2);
@@ -270,14 +279,14 @@ body{
     }
     /* Content */
     #content-control section{
-        margin-left: 80px;
+        margin-left: 20px;
     }
 
     .dropdown{
-        margin-left: 90px;
+        margin-left: 30px;
     }
 
     .type-header{
-        margin-left: 80px;
+        margin-left: 20px;
     }
 }    
