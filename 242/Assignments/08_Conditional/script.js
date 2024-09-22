@@ -40,6 +40,7 @@ let picture = document.getElementById("pictureContainer")
 
     const ex1 = document.getElementById('ex-1');
     const ex2 = document.getElementById('ex-2');
+    let ex1style = document.querySelector("#ex")
     const colorSlider = document.getElementById('color-slider');
     const pictureChooser = document.getElementById('picture-chooser');
 
@@ -58,14 +59,14 @@ let picture = document.getElementById("pictureContainer")
         if(document.getElementById("arrow").innerHTML == "⯆"){
             document.getElementById("arrow").innerHTML = "⯅";
 
-            ex1.style.display = "block";
-            ex2.style.display = "block";
+            ex1.classList.toggle("hidden");
+            ex2.classList.toggle("hidden");
         }
         else if(document.getElementById("arrow").innerHTML == "⯅"){
             document.getElementById("arrow").innerHTML = "⯆";
 
-            ex1.style.display = "none";
-            ex2.style.display = "none";
+            ex1.classList.toggle("hidden");
+            ex2.classList.toggle("hidden");
 
         }
     };

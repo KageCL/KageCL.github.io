@@ -111,26 +111,23 @@ body{
     display: none;
 }
 
-#ex-1{
+
+
+#ex-1.hidden{
     display: flex;
 }
 
-#ex-2{
+#ex-2.hidden{
     display: flex;
 }
 
+.hidden{
+    display: none;
+}
 @media only screen and (max-width: 700px){
     #arrow{
         display: block;
         cursor: pointer;
-    }
-
-    #ex-1{
-        display: none;
-    }
-
-    #ex-2{
-        display: none;
     }
 
     #menuBar ul{
@@ -139,6 +136,14 @@ body{
     }
 
     #menuBar ul li:not(:last-child)::after{
+        display: none;
+    }
+
+    #ex-1.hidden{
+        display: none;
+    }
+    
+    #ex-2.hidden{
         display: none;
     }
 }
