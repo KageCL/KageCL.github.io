@@ -1,0 +1,283 @@
+:root{
+    --primary-color-1:#B886F8;
+    --primary-color-2:#F1E1EB;
+    --primary-color-3:black;
+    --secondary-color-1:white;
+    --secondary-color-2:whitesmoke;
+    --secondary-color-3:#DE868F;
+
+}
+
+#content-title{
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#main-footer p{
+    text-align: center;
+    background: var(--primary-color-1);
+    margin: 0px;
+}
+/* Header */
+
+
+#header-top{
+    display: flex;
+    flex-direction: row;
+}
+#main-img{
+    background: var(--primary-color-1);
+    flex: 1;
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-header{
+    background: var(--primary-color-1);
+    flex: 8;
+}
+
+#main-header h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#header-menu{
+    background: var(--primary-color-1);
+    flex: 1;
+}
+
+#top-menu ul{
+    padding-left: 0px;
+    padding-top: 40px;
+}
+#top-menu li{
+    list-style-type: none;
+}
+
+#top-menu a{
+    text-decoration: none;
+    color: var(--primary-color-3);
+}
+
+#top-menu a:hover{
+    color: var(--secondary-color-3);
+}
+
+#header-bottom{
+    background: var(--primary-color-2);
+}
+
+#nav-bar ul{
+    padding-left: 0px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#nav-bar li{
+    list-style: none;
+    flex: 1;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    background: var(--primary-color-2);
+    color: var(--primary-color-3);
+    display: block;
+
+}
+
+#nav-bar a:hover{
+    background: var(--secondary-color-2);
+    color: var(--primary-color-1);
+}
+
+#toggle-nav{
+    margin: auto;
+    display: none;
+}
+
+#toggle-nav div{
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin-bottom: 6px;
+}
+
+#nav-bar.hidden{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+/* Content */
+
+#content{
+    display: flex;
+    flex-direction: row;
+}
+#items{
+    display: flex;
+    flex: 6;
+}
+#items section{
+    background: var(--secondary-color-1);
+    border-radius: 2px;
+    margin: 20px;
+    margin-top: 10px;
+
+}
+#items a{
+    text-decoration: none;
+    padding: 3px;
+    color:var(--primary-color-3);
+    
+}
+
+#items a:hover{
+    color: var(--primary-color-1);
+}
+
+#side{
+    flex: 1;
+}
+
+#content-control{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content-control p{
+    margin-left: 5px;
+}
+
+.section-control{
+    flex-direction: column;
+    border: 1px solid var(--primary-color-3);
+}
+
+
+#content-control section{
+    background: var(--primary-color-2);
+    width: 300px;
+}
+
+.item-head{
+    background: var(--primary-color-1);
+}
+
+.item-head h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.item-head h3:hover{
+    background: var(--primary-color-2);
+}
+
+.item-img{
+    background: var(--secondary-color-1);
+    padding-top: 5px;
+}
+
+.item-img img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.item-desc{
+    background: var(--primary-color-2);
+}
+
+.item-desc p{
+    margin: 0px;
+    margin-left: 5px;
+}
+
+/* Other */
+#active a{
+    background: var(--secondary-color-2);
+    color: var(--primary-color-1);
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 700px){
+
+    #toggle-nav{
+        display: block;
+    }
+
+    #nav-bar.hidden{
+        display: none;
+    }
+    
+/* Header */
+    #nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #header-top{
+        flex-direction: column;
+    }
+    #main-header h1{
+        font-size: 40px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #top-menu ul{
+        padding-left: 0px;
+        display: flex;
+        margin-left: 140px;
+        margin-top: 0px;
+    }
+
+    #top-menu a{
+        padding-right: 20px;
+    }
+
+/*Content*/
+    #content{
+        flex-direction: column;
+    }
+    #side{
+        margin-left: 150px;
+    }
+
+    #items section{
+        margin-left: 50px;
+    }
+
+}
