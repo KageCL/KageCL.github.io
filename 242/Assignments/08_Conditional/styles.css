@@ -1,0 +1,144 @@
+:root{
+    --primary-color: goldenrod;
+    --primary-color2: white;
+    --primary-color3: #d3d3d3;
+    --secondary-color: black;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+#header{
+    background: var(--primary-color);
+}
+
+#header h1{
+    text-align: center;
+    margin: 0px;
+}
+
+#main-content{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: var(--primary-color3);
+}
+
+#color-slider{
+    background: var(--secondary-color);
+}
+
+#color-slider h3{
+    color: var(--primary-color2);
+}
+#color-message{
+    color: var(--primary-color2);
+}
+#header-nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#header-nav li{
+    list-style: none;
+}
+
+#header-nav a{
+    text-decoration: none;
+    display: block;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 0px;
+    height: 25px;
+    background: var(--primary-color2);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+  
+  .slider:hover{
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: var(--secondary-color);
+    cursor: pointer;
+  }
+  
+.slider::-moz-range-thumb{
+    width: 25px;
+    height: 25px;
+    background: var(--primary-color-1);
+    cursor: pointer;
+  }
+
+#menuBar ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 120px;
+    display: flex;
+}
+#menuBar ul li{
+    margin-right: 10px;
+    cursor: pointer;
+}
+#menuBar ul li:not(:last-child)::after{
+    content: '|';
+    margin-left: 10px;
+}
+#menuBar ul li:hover{
+    color: var(--primary-color);
+}
+
+#arrow{
+    display: none;
+    text-align: left;
+}
+
+#picture-chooser{
+    display: none;
+}
+
+#ex-1{
+    display: flex;
+}
+
+#ex-2{
+    display: flex;
+}
+
+@media only screen and (max-width: 700px){
+    #arrow{
+        display: block;
+        cursor: pointer;
+    }
+
+    #ex-1{
+        display: none;
+    }
+
+    #ex-2{
+        display: none;
+    }
+
+    #menuBar ul{
+        margin-left: 10px;
+        display: block;
+    }
+
+    #menuBar ul li:not(:last-child)::after{
+        display: none;
+    }
+}
