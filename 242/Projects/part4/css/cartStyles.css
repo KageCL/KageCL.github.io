@@ -170,6 +170,8 @@ footer{
 .pic img{
     margin-left: 50px;
     margin-bottom: 20px;
+    width: 200px;
+    height: 250px;
 }
 .info{
     display: flex;

@@ -152,6 +152,8 @@ footer{
 #item-img img{
     display: block;
     margin-left: 125px;
+    width: 400px;
+    height: 500px;
 }
 
 #info{

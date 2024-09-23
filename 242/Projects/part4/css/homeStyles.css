@@ -166,6 +166,10 @@ footer{
     flex: 1;
 }
 
+#side img{
+    width: 200px;
+    height: 500px;
+}
 #content-control{
     display: flex;
     flex-wrap: wrap;
