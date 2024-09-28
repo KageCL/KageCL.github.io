@@ -11,10 +11,6 @@ body{
     margin: 0px;
 }
 
-p{
-    cursor: pointer;
-}
-
 #header{
     background: var(--primary-color);
 }
@@ -30,20 +26,4 @@ p{
     margin-right: auto;
     text-align: center;
     background: var(--primary-color3);
-}
-
-#outside-area{
-    background: var(--secondary-color2);
-}
-#star-area{
-    background: var(--secondary-color);
-    border: 1px solid var(--primary-color2);
-    position: relative;
-    height: 300px;
-    width: 100%;
-    margin: auto;
-}
-
-.input-button{
-    display: flex;
 }
