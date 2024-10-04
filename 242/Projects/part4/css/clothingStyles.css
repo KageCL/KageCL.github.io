@@ -221,8 +221,7 @@ footer{
 
 #content-control section{
     background: var(--primary-color-2);
-    max-width: 300px;
-    flex: 1;
+    flex: 22%;
 }
 
 .item-head{

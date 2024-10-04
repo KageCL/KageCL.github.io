@@ -234,7 +234,7 @@ footer{
 
 #content-control section{
     background: var(--primary-color-2);
-    width: 300px;
+    flex: 29%;
 }
 
 .item-head{
@@ -259,9 +259,11 @@ footer{
 }
 
 .item-img img{
+    display: block;
     width: 200px;
     height: 200px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .item-desc{
     background: var(--primary-color-2);
