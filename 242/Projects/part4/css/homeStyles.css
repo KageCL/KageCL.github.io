@@ -136,48 +136,6 @@ footer{
 }
 /* Content */
 
-.dropbtn {
-    background-color: var(--primary-color-2);
-    color: var(--primary-color-3);
-    padding: 10px;
-    font-size: 16px;
-    margin-top: 20px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    flex: 1;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--secondary-color-4);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: var(--primary-color-1);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: var(--primary-color-2);}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-.type-header{
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    width: 100%;
-}
-
 #content{
     display: flex;
     flex-direction: row;
@@ -206,14 +164,11 @@ footer{
 
 #side{
     flex: 1;
-    
 }
 
 #side img{
     width: 200px;
     height: 500px;
-    border: 1px solid black;
-    border-right: none;
 }
 #content-control{
     display: flex;
@@ -222,8 +177,6 @@ footer{
 
 #content-control p{
     margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .section-control{
@@ -234,7 +187,7 @@ footer{
 
 #content-control section{
     background: var(--primary-color-2);
-    flex: 29%;
+    width: 300px;
 }
 
 .item-head{
@@ -259,11 +212,9 @@ footer{
 }
 
 .item-img img{
-    display: block;
     width: 200px;
     height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
 }
 .item-desc{
     background: var(--primary-color-2);
@@ -286,9 +237,6 @@ footer{
 
     #toggle-nav{
         display: block;
-        padding-top: 5px;
-        padding-left: 5px;
-        padding-bottom: 5px;
     }
 
     #nav-bar.hidden{
@@ -313,11 +261,15 @@ footer{
         display: none;
     }
 
-    #top-menu ul{ 
+    #top-menu ul{
+        padding-left: 0px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+        margin-left: 140px;
+        margin-top: 0px;
+    }
+
+    #top-menu a{
+        padding-right: 20px;
     }
 
 /*Content*/
@@ -325,7 +277,7 @@ footer{
         flex-direction: column;
     }
     #side{
-        display: none;
+        margin-left: 150px;
     }
 
     #items section{
