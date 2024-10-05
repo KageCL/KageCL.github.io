@@ -209,7 +209,9 @@ footer{
 }
 
 .pic img{
-    margin-left: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
     width: 200px;
     height: 250px;
@@ -272,7 +274,7 @@ margin-left: 50px;
         flex-direction: column;
     }
     #main-header h1{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #logo{
@@ -284,6 +286,7 @@ margin-left: 50px;
         justify-content: center;
         align-items: center;
         gap: 10px;
+        padding-top: 0px;
     }
 
     /* Content */
@@ -301,7 +304,6 @@ margin-left: 50px;
     }
 
     .pic img{
-        margin-left: 115px;
         margin-bottom: 0px;
     }
 
