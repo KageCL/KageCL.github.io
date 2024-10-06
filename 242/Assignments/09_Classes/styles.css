@@ -5,7 +5,7 @@
     --secondary: darkgreen;
     --tertiary: orange;
     --back: azure;
-    --headback: bisque;
+    --headback: cornflowerblue;
     --mainback: cadetblue;
     --footback: honeydew;
     --num: 15%;
@@ -58,7 +58,7 @@
   /* Birds */
   
   .bird{
-    background-color: dodgerblue;
+    background-color: var(--headback);
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
@@ -115,7 +115,7 @@
   }
   
   #children-table th{
-    background-color: cornflowerblue;
+    background-color: var(--headback);
     color: white;
   }
   
