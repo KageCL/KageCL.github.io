@@ -1,0 +1,123 @@
+{
+    "rompers": [
+      {
+        "_id": 1,
+        "name": "Flower Romper",
+        "price": 16.00,
+        "description": "Romper with various different colors and flower designs.",
+        "image": "flower-romper.jpg",
+        "sizes": [
+            "S/M",
+            "L/XL"],
+        "designs": [
+            "Blue",
+            "Pink",
+            "Red",
+            "Black"]
+      },
+      {
+        "_id": 2,
+        "name": "Dye Romper",
+        "price": 16.00,
+        "description": "Rompers with various different tie dye designs.",
+        "image": "dye-romper.jpg",
+        "sizes": [
+            "S",
+            "M"],
+        "designs": [
+            "Brown/Pink",
+            "Yellow/Pink",
+            "Blue/Pink"]
+      },
+      {
+        "_id": 3,
+        "name": "Hispanic Romper",
+        "price": 16.00,
+        "description": "Rompers with various different hispanic flower designs.",
+        "image": "sunflower-dress.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black",
+            "White",
+            "Pink",
+            "Navy Blue"]
+      },
+      {
+        "_id": 4,
+        "name": "Dual Color Romper",
+        "price": 16.00,
+        "description": "Dual color rompers with a cloudy design.",
+        "image": "dual-color.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"],
+        "designs": [
+            "Blue",
+            "Black",
+            "Teal",
+            "Brown"]
+      },
+      {
+        "_id": 5,
+        "name": "Unique Romper",
+        "price": 16.00,
+        "description": "Rompers with an exposed stomach and unique designs.",
+        "image": "unique-romper.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black",
+            "White",
+            "Orange",
+            "Pink"]
+      },
+      {
+        "_id": 6,
+        "name": "Elephant Romper",
+        "price": 16.00,
+        "description": "Rompers with an elephant print design.",
+        "image": "elephant-romper.jpg",
+        "sizes": [
+            "M/L",
+            "XL/XXL"],
+        "designs": [
+            "Black",
+            "Red",
+            "Navy Blue"]
+      },
+      {
+        "_id": 7,
+        "name": "Star Romper",
+        "price": 16.00,
+        "description": "Black romper with a beautiful star print design.",
+        "image": "star-romper.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black"]
+      },
+      {
+        "_id": 8,
+        "name": "Orange/Grey Romper",
+        "price": 16.00,
+        "description": "Romper with a unique orange and grey design pattern.",
+        "image": "orange-romper.jpg",
+        "sizes": [
+            "M",
+            "L"],
+        "designs": [
+            "Orange"]
+      }
+    ]
+  }
+  
