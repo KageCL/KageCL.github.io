@@ -1,0 +1,134 @@
+{
+    "outfits": [
+      {
+        "_id": 1,
+        "name": "Beach Outfit",
+        "price": 16.00,
+        "description": "Two piece top and shorts set with an adjustable wrapping top.",
+        "image": "beach-outfit.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "White",
+            "Navy Blue",
+            "Black",
+            "Peach"]
+      },
+      {
+        "_id": 2,
+        "name": "Hispanic Outfit",
+        "price": 16.00,
+        "description": "Two piece top and skirt set with a colorful design.",
+        "image": "hispanic-outfit.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black",
+            "Teal",
+            "White", 
+            "Pink"]
+      },
+      {
+        "_id": 3,
+        "name": "Bubble Outfit",
+        "price": 16.00,
+        "description": "Two piece top and skirt set with different color bases and a white bubble design.",
+        "image": "bubble-outfit.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L"],
+        "designs": [
+            "Blue",
+            "Green",
+            "Orange",
+            "Black"]
+      },
+      {
+        "_id": 4,
+        "name": "Dye Outfit",
+        "price": 16.00,
+        "description": "Two piece top and shorts hoodie outfit with a tie dye design.",
+        "image": "dye-outfit.jpg",
+        "sizes": [
+            "L",
+            "XL",
+            "XXL"],
+        "designs": [
+            "Teal",
+            "Black",
+            "Blue",
+            "Pink"]
+      },
+      {
+        "_id": 5,
+        "name": "Sportswear Outfit",
+        "price": 16.00,
+        "description": "Two piece top and shorts active wear set. Top features a front zipper.",
+        "image": "sportswear-outfit.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Yellow",
+            "Pink",
+            "Peach",
+            "Purple"]
+      },
+      {
+        "_id": 6,
+        "name": "Plain Outfit",
+        "price": 16.00,
+        "description": "Two piece top and shorts hoodie outfit with a plain color design.",
+        "image": "plain-outfit.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Olive",
+            "Pink",
+            "Red",
+            "Blue"]
+      },
+      {
+        "_id": 7,
+        "name": "Stripe Outfit",
+        "price": 16.00,
+        "description": "Full body outfit with various designs and a waist band.",
+        "image": "stripe-outfit.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black",
+            "Blue",
+            "Colorful"]
+      },
+      {
+        "_id": 8,
+        "name": "Track Outfit",
+        "price": 16.00,
+        "description": "Two piece top and shorts hoodie outfit with a white stripe design.",
+        "image": "track-outfit.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Pink",
+            "Black",
+            "Cyan",
+            "Blue"]
+      }
+    ]
+  }
+  
