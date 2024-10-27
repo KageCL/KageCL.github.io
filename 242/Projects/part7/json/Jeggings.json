@@ -1,0 +1,123 @@
+{
+    "jeggings": [
+      {
+        "_id": 1,
+        "name": "Jeggings",
+        "price": 12.00,
+        "description": "Leggings with a jean design on them. Features various jegging designs to choose from.",
+        "image": "jeggings.jpg",
+        "sizes": [
+            "S/M",
+            "L/XL"],
+        "designs": [
+            "Stars",
+            "Zigzag",
+            "Flowers"]
+      },
+      {
+        "_id": 2,
+        "name": "Unique Leggings",
+        "price": 12.00,
+        "description": "Leggings with beautiful unique patterns on them that simply cannot be described.",
+        "image": "unique-legging.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L"],
+        "designs": [
+            "Blue Camo",
+            "White/Black",
+            "Blue",
+            "Yellow"]
+      },
+      {
+        "_id": 3,
+        "name": "Cool Short Leggings",
+        "price": 12.00,
+        "description": "Short leggings with different prints and symbols on them.",
+        "image": "cool-short-legging.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L"],
+        "designs": [
+            "USA",
+            "Navy Blue",
+            "Space"]
+      },
+      {
+        "_id": 4,
+        "name": "Lion Leggings",
+        "price": 12.00,
+        "description": "Fierce leggings with a large lion design throughout.",
+        "image": "lion-legging.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Lion Black",
+            "Lion Orange"]
+      },
+      {
+        "_id": 5,
+        "name": "Short Flower Leggings",
+        "price": 12.00,
+        "description": "Short leggings with different colors and types of flower prints.",
+        "image": "short-flower-legging.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black/Red",
+            "Black/Pink",
+            "Navy/Pink"]
+      },
+      {
+        "_id": 6,
+        "name": "Sportswear Leggings",
+        "price": 12.00,
+        "description": "Leggings with different colorful prints and pockets. Good for active wear.",
+        "image": "sportswear-legging.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Blue/Pink",
+            "Colorful Line",
+            "Colorful Tree"]
+      },
+      {
+        "_id": 7,
+        "name": "Dark Bolt Jeggings",
+        "price": 12.00,
+        "description": "Dark jeggings with shiny gems that come together to form a bolt.",
+        "image": "dark-bolt-legging.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black",
+            "Grey"]
+      },
+      {
+        "_id": 8,
+        "name": "Leopard Jeggings",
+        "price": 12.00,
+        "description": "Jeggings with a unique leopard print.",
+        "image": "leopard-print-legging.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Light Print",
+            "Dark Print"]
+      }
+    ]
+  }
+  

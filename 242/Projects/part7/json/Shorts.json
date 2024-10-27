@@ -1,0 +1,116 @@
+{
+    "shorts": [
+      {
+        "_id": 1,
+        "name": "Unique Shorts",
+        "price": 10.00,
+        "description": "Shorts with various unique designs and colors.",
+        "image": "unique-short.jpg",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Green",
+            "Black",
+            "Blue",
+            "Orange"]
+      },
+      {
+        "_id": 2,
+        "name": "Plain Shorts",
+        "price": 10.00,
+        "description": "Plain color shorts with string coming off the sides.",
+        "image": "plain-short.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L"],
+        "designs": [
+            "Red",
+            "Blue",
+            "Grey",
+            "Pink",
+            "Black"]
+      },
+      {
+        "_id": 3,
+        "name": "Jean Shorts",
+        "price": 10.00,
+        "description": "Plain color jean shorts with front and back pockets.",
+        "image": "jean-short.png",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Red",
+            "Black",
+            "Blue",
+            "Orange",
+            "Pink"]
+      },
+      {
+        "_id": 4,
+        "name": "Lace Shorts",
+        "price": 10.00,
+        "description": "Shorts with laces on the side and various different patterns and colors.",
+        "image": "lace-short.png",
+        "sizes": [
+            "M",
+            "L",
+            "XL"],
+        "designs": [
+            "Black"]
+      },
+      {
+        "_id": 5,
+        "name": "Pink/Blue Dye Shorts",
+        "price": 10.00,
+        "description": "Pink and blue tie dye shorts with strings coming off the sides.",
+        "image": "bp-dye-short.jpg",
+        "sizes": [
+            "S",
+            "M"],
+        "designs": [
+            "Pink/Blue"]
+      },
+      {
+        "_id": 6,
+        "name": "Red/Black Dye Shorts",
+        "price": 10.00,
+        "description": "Red and black tie dye shorts with strings coming off the sides.",
+        "image": "rblack-dye-short.jpg",
+        "sizes": [
+            "S",
+            "M"],
+        "designs": [
+            "Red/Black"]
+      },
+      {
+        "_id": 7,
+        "name": "Blue/Black Dye Shorts",
+        "price": 10.00,
+        "description": "Blue and black tie dye shorts with strings coming off the sides.",
+        "image": "bblack-dye-short.jpg",
+        "sizes": [
+            "S",
+            "M"],
+        "designs": [
+            "Blue/Black"]
+      },
+      {
+        "_id": 8,
+        "name": "Rainbow Dye Shorts",
+        "price": 10.00,
+        "description": "Rainbow colored tie dye shorts with string coming off the sides.",
+        "image": "rainbow-dye-short.jpg",
+        "sizes": [
+            "S",
+            "M"],
+        "designs": [
+            "Rainbow"]
+      }
+    ]
+  }
+  
