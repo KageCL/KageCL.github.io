@@ -134,6 +134,11 @@ p{
     margin: 30px;
     flex: 1;
 }
+
+.columns{
+    display: flex;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width:700px){

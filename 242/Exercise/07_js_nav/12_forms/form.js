@@ -1,26 +1,14 @@
-document.getElementById("form-raccoon").onsubmit = (e) =>{
+document.getElementById("form-contact").onsubmit = (e) =>{
     e.preventDefault(); //Don't refresh the page
 
     const form = e.target;
 
-    const raccoonName = form.elements["raccoon-name"].value;
-    const demeanor = form.elements["demeanor"].value;
+    const name = form.elements["name"].value;
+    const email = form.elements["email"].value;
+    const message = form.elements["message"].value;
     const termsChecked = form.elements["terms"].checked;
-    const size = getRadioValue("size");
 
-    console.log(raccoonName);
+    console.log(`${name}'s email is ${email} and they sent the message ${message}.`);
 
 
-};
-
-const getRadioValue = (radioName) =>{
-    const radios = document.getElementsByName(radioName);
-
-    for(let i in radios){
-        if(radios[i].checked){
-            return radios[i].value;
-        }
-
-        return "";
-    }
 };
