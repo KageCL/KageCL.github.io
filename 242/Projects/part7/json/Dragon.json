@@ -1,0 +1,45 @@
+{
+    "dragon": [
+      {
+        "_id": 1,
+        "name": "Dragon Balls Keychain",
+        "price": 5.00,
+        "description": "Keychain depicting the 7 Earth dragon balls from the dragon ball series",
+        "image": "db-ball-keychain.jpg",
+        "designs": [
+            "Dragon Balls"]
+      },
+      {
+        "_id": 2,
+        "name": "Goku Keychain",
+        "price": 5.00,
+        "description": "Goku from the Dragon Ball series",
+        "image": "goku-keychain.jpg",
+        "designs": [
+            "Base",
+            "SSJ",
+            "SSJB"]
+      },
+      {
+        "_id": 3,
+        "name": "Master Roshi Keychain",
+        "price": 5.00,
+        "description": "Master Roshi from the Dragon Ball series.",
+        "image": "roshi-keychain.jpg",
+        "designs": [
+            "Master Roshi"]
+      },
+      {
+        "_id": 4,
+        "name": "Gohan Keychain",
+        "price": 5.00,
+        "description": "Gohan from the Dragon Ball series.",
+        "image": "gohan-keychain.jpg",
+        "designs": [
+            "Gohan",
+            "Kid Gohan",
+            "Teen Gohan"]
+      }
+    ]
+  }
+  

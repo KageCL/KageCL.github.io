@@ -1,0 +1,41 @@
+{
+    "jujutsu": [
+      {
+        "_id": 1,
+        "name": "Blossom Keychain",
+        "price": 5.00,
+        "description": "Blossom from the Powerpuff Girls series.",
+        "image": "blossom-keychain.jpg",
+        "designs": [
+            "Blossom"]
+      },
+      {
+        "_id": 2,
+        "name": "Buttercup Keychain",
+        "price": 5.00,
+        "description": "Buttercup from the Powerpuff Girls series.",
+        "image": "buttercup-keychain.jpg",
+        "designs": [
+            "Buttercup"]
+      },
+      {
+        "_id": 3,
+        "name": "Bubbles Keychain",
+        "price": 5.00,
+        "description": "Bubbles from the Powerpuff Girls series.",
+        "image": "bubbles-keychain.jpg",
+        "designs": [
+            "Bubbles"]
+      },
+      {
+        "_id": 4,
+        "name": "Mojo Jojo Keychain",
+        "price": 5.00,
+        "description": "Mojo Jojo from the Powerpuff Girls series.",
+        "image": "mojo-keychain.jpg",
+        "designs": [
+            "Mojo Jojo"]
+      }
+    ]
+  }
+  

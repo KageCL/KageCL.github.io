@@ -1,0 +1,41 @@
+{
+    "inside_out": [
+      {
+        "_id": 1,
+        "name": "Joy Keychain",
+        "price": 5.00,
+        "description": "Joy from the Inside Out movie.",
+        "image": "joy-keychain.jpg",
+        "designs": [
+            "Joy"]
+      },
+      {
+        "_id": 2,
+        "name": "Anger Keychain",
+        "price": 5.00,
+        "description": "Anger from the Inside Out movie.",
+        "image": "anger-keychain.jpg",
+        "designs": [
+            "Anger"]
+      },
+      {
+        "_id": 3,
+        "name": "Fear Keychain",
+        "price": 5.00,
+        "description": "Fear from the Inside Out movie.",
+        "image": "fear-keychain.jpg",
+        "designs": [
+            "Fear"]
+      },
+      {
+        "_id": 4,
+        "name": "Sadness Keychain",
+        "price": 5.00,
+        "description": "Sadness from the Inside Out movie.",
+        "image": "sadness-keychain.jpg",
+        "designs": [
+            "Sadness"]
+      }
+    ]
+  }
+  

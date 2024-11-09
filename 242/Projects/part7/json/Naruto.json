@@ -1,0 +1,44 @@
+{
+    "naruto": [
+      {
+        "_id": 1,
+        "name": "Naruto Keychain",
+        "price": 5.00,
+        "description": "Naruto Uzumaki from the Naruto series.",
+        "image": "naruto-keychain.jpg",
+        "designs": [
+            "Base",
+            "Sage Naruto",
+            "KCM Naruto"]
+      },
+      {
+        "_id": 2,
+        "name": "Kakashi Keychain",
+        "price": 5.00,
+        "description": "Kakashi Hatake from the Naruto series.",
+        "image": "kakashi-keychain.jpg",
+        "designs": [
+            "Kakashi"]
+      },
+      {
+        "_id": 3,
+        "name": "Rock Lee Keychain",
+        "price": 5.00,
+        "description": "Rock Lee from the Naruto series.",
+        "image": "lee-keychain.jpg",
+        "designs": [
+            "Base",
+            "7th Gate Lee"]
+      },
+      {
+        "_id": 4,
+        "name": "Pain Keychain",
+        "price": 5.00,
+        "description": "Deva Path Pain from the Naruto series.",
+        "image": "pain-keychain.jpg",
+        "designs": [
+            "Deva Pain"]
+      }
+    ]
+  }
+  

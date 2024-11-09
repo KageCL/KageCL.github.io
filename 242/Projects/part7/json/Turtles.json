@@ -1,0 +1,41 @@
+{
+    "turtles": [
+      {
+        "_id": 1,
+        "name": "Leonardo Keychain",
+        "price": 5.00,
+        "description": "Leonardo from the Ninja Turtles series.",
+        "image": "leo-keychain.jpg",
+        "designs": [
+            "Leonardo"]
+      },
+      {
+        "_id": 2,
+        "name": "Raphael Keychain",
+        "price": 5.00,
+        "description": "Raphael from the Ninja Turtles series.",
+        "image": "raph-keychain.jpg",
+        "designs": [
+            "Raphael"]
+      },
+      {
+        "_id": 3,
+        "name": "Michelangelo Keychain",
+        "price": 5.00,
+        "description": "Michelangelo from the Ninja Turtles series.",
+        "image": "mich-keychain.jpg",
+        "designs": [
+            "Michelangelo"]
+      },
+      {
+        "_id": 4,
+        "name": "Donatello Keychain",
+        "price": 5.00,
+        "description": "Donatello from the Ninja Turtles series.",
+        "image": "don-keychain.jpg",
+        "designs": [
+            "Donatello"]
+      }
+    ]
+  }
+  

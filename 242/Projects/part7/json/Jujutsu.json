@@ -1,0 +1,43 @@
+{
+    "jujutsu": [
+      {
+        "_id": 1,
+        "name": "Yuji Keychain",
+        "price": 5.00,
+        "description": "Yuji Itadori from the Jujutsu Kaisen series.",
+        "image": "yuji-keychain.jpg",
+        "designs": [
+            "Yuji",
+            "Sukuna Yuji"]
+      },
+      {
+        "_id": 2,
+        "name": "Gojo Keychain",
+        "price": 5.00,
+        "description": "Satoru Gojo from the Jujutsu Kaisen series.",
+        "image": "gojo-keychain.jpg",
+        "designs": [
+            "Gojo Blindfold",
+            "Six-eyes Gojo"]
+      },
+      {
+        "_id": 3,
+        "name": "Nobara Keychain",
+        "price": 5.00,
+        "description": "Kugisake Nobara from the Jujutsu Kaisen series.",
+        "image": "nobara-keychain.jpg",
+        "designs": [
+            "Nobara"]
+      },
+      {
+        "_id": 4,
+        "name": "Megumi Keychain",
+        "price": 5.00,
+        "description": "Fushiguro Megumi from the Jujutsu Kaisen series.",
+        "image": "megumi-keychain.jpg",
+        "designs": [
+            "Megumi"]
+      }
+    ]
+  }
+  
