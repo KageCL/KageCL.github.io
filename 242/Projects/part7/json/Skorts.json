@@ -1,73 +1,71 @@
 {
-    "dresses": [
+    "skorts": [
       {
         "_id": 1,
-        "name": "Butterfly Dress",
-        "price": 16.00,
-        "description": "Plain color dresses with butterfly prints starting at the bottom and going to the top.",
-        "image": "butterfly-dress.jpg",
-        "sizes": [
-            "S",
-            "M",
-            "L",
-            "XL"],
-        "designs": [
-            "Navy Blue",
-            "Black",
-            "White"]
-      },
-      {
-        "_id": 2,
-        "name": "Plain Dress",
-        "price": 16.00,
-        "description": "A simple plain dress with golden beads and bands.",
-        "image": "plain-dress.JPG",
+        "name": "Flower Skort",
+        "price": 12.00,
+        "description": "Skorts with various different flower patterns and colors.",
+        "image": "flower-skort.jpg",
         "sizes": [
             "S",
             "M",
             "L"],
         "designs": [
-            "Navy Blue",
             "Red",
+            "Orange",
+            "Blue"]
+      },
+      {
+        "_id": 2,
+        "name": "Floral Skort",
+        "price": 12.00,
+        "description": "Skorts with various different floral patterns and colors.",
+        "image": "floral-skort.jpg",
+        "sizes": [
+            "S",
+            "M"],
+        "designs": [
+            "Navy Blue",
+            "Pink",
             "Black"]
       },
       {
         "_id": 3,
-        "name": "Sunflower Dress",
-        "price": 16.00,
-        "description": "Different color dresses with large yellow sunflowers around it.",
-        "image": "sunflower-dress.jpg",
+        "name": "Plain Skort",
+        "price": 12.00,
+        "description": "Plain color skorts in various different colors.",
+        "image": "plain-skort.jpg",
         "sizes": [
             "M",
             "L",
             "XL"],
         "designs": [
-            "Navy Blue",
+            "Green",
+            "Brown",
             "Red",
-            "White",
             "Black"]
       },
       {
         "_id": 4,
-        "name": "Flower Dress",
-        "price": 16.00,
-        "description": "Dresses with many small flowers and no plain design on the dress.",
-        "image": "flower-dress.JPG",
+        "name": "Diamong Skort",
+        "price": 12.00,
+        "description": "Skorts with different color diamond design patterns.",
+        "image": "diamond-skort.jpg",
         "sizes": [
             "M",
             "L",
             "XL"],
         "designs": [
             "Blue",
-            "Teal",
-            "Black"]
+            "Red",
+            "Orange"]
       },
       {
         "_id": 5,
-        "name": "Wheat Dress",
-        "price": 16.00,
-        "description": "Plain color dresses with wheat designs on the bottom and on the sleeves.",
-        "image": "wheat-dress.jpg",
+        "name": "Plaid Skort",
+        "price": 12.00,
+        "description": "Skorts with different color plaid designs.",
+        "image": "plaid-skort.jpg",
         "sizes": [
             "S",
             "M",
@@ -75,55 +73,52 @@
             "XL"],
         "designs": [
             "Blue",
-            "Yellow",
-            "Red"]
+            "Black",
+            "Yellow"]
       },
       {
         "_id": 6,
-        "name": "Sea Floral Dress",
-        "price": 16.00,
-        "description": "Black dresses with different color floral prints on the bottom and torso areas.",
-        "image": "sea-floral-dress.jpg",
+        "name": "Split Skort",
+        "price": 12.00,
+        "description": "Plain color skorts with various different splits all around it.",
+        "image": "split-skort.jpg",
         "sizes": [
             "M",
             "L",
             "XL"],
         "designs": [
-            "Dark Blue",
-            "Red",
+            "Brown",
+            "Navy Blue",
             "Purple",
-            "Blue"]
+            "Green"]
       },
       {
         "_id": 7,
-        "name": "Fancy Dress",
-        "price": 16.00,
-        "description": "Fancy dresses with unique design patterns throughout.",
-        "image": "fancy-dress.jpg",
+        "name": "Camp Skort",
+        "price": 12.00,
+        "description": "Plain color skorts that are comfortable and good for camping.",
+        "image": "campus-skort.jpg",
         "sizes": [
             "M",
-            "L",
-            "XL"],
+            "L"],
         "designs": [
-            "Purple",
-            "Blue",
-            "Red",
-            "Black"]
+            "Navy Blue",
+            "Tan"]
       },
       {
         "_id": 8,
-        "name": "Rose Dress",
-        "price": 16.00,
-        "description": "Flowy dresses with two large different color roses on the front.",
-        "image": "rose-dress.jpg",
+        "name": "Denim Skort",
+        "price": 12.00,
+        "description": "Plain jean color skorts made of denim.",
+        "image": "denim-skort.jpg",
         "sizes": [
             "M",
             "L",
             "XL"],
         "designs": [
-            "Blue/Pink",
-            "Black/Purple",
-            "Purple/Red"]
+            "Blue",
+            "Light Blue",
+            "Tan"]
       }
     ]
   }
